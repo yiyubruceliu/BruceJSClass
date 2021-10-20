@@ -30,5 +30,58 @@
     <!--output-->
     <p id="ageOutput"></p>
 
+    <hr />
+    <p>Return the next integer number from a given number</p>
+    <!--input-->
+    <input id="inputIncrement"/>
+
+    <!--process-->
+    <button id="btnIncrement" onclick="increment()">Increment by 1</button>
+
+    <!--output-->
+    <p id="parIncrement"></p>
+
+    <hr />
+    <p>Converting hours to seconds</p>
+    <!--input-->
+    <input id="inputConvert"/>
+
+    <!--process-->
+    <button id="btnConvert" onclick="convert()">Convert</button>
+
+    <!--output-->
+    <p id="parConvert"></p>
+
+    <hr />
+    <p>Get first element of array</p>
+    <!--input-->
+    <input id="inputArray1"/>
+    <input id="inputArray2"/>
+    <input id="inputArray3"/>
+
+    <!--process-->
+    <button id="btnArray" onclick="arrayElement()">Get first element</button>
+
+    <!--output-->
+    <p id="parArray"></p>
+
+    <hr/>
+    <!--input-->
+    <input id="inputAddOne" /> +
+    <input id="inputAddTwo" />
+
+    <!--process-->
+    <button 
+        id="btnAdd" 
+        onclick="
+            document.getElementById('parAdd').innerText = 
+            bmi(
+                document.getElementById('inputAddOne').value,
+                document.getElementById('inputAddTwo').value
+            )">
+    Add</button>
+
+    <!--output-->
+    <p id="parAdd">This is the output</p>
 </body>
 </html>
